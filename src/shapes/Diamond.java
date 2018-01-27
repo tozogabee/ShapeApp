@@ -17,7 +17,7 @@ public class Diamond extends Square {
     @Override
     public String toString() {
         return "Diamond{" +
-                "angle - " + angle +"\n"+
+                "angle - " + angle +"\nThe \"a\" side - "+this.getA()+"\nThe area - "+this.calculateArea()+"\nThe circum - "+this.calculateCircumReference()+"\n"+
                 '}';
     }
 }
